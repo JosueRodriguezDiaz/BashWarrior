@@ -1,0 +1,9 @@
+En el nivel 6, se trabajó con el manejo de argumentos en Bash. Se aprendió a usar $1 para recibir información desde la línea de comandos y a comprobar si un argumento fue pasado con la condición if [ -z "$1" ]. También se utilizó el comando wc -l para contar líneas dentro de un archivo y echo para mostrar mensajes por pantalla.
+
+En el nivel 7, el objetivo fue ordenar archivos de texto por su tamaño. Para ello se usaron bucles for para recorrer todos los archivos .txt del directorio, el comando stat -c%s para obtener el tamaño de cada archivo en bytes y sort -k3 -n para ordenarlos numéricamente. Se practicó también la redirección de salida con > para guardar los resultados en un archivo llamado sort_output.txt.
+
+En el nivel 8, se aprendió a buscar palabras dentro de archivos .log. Se usó el comando grep para buscar coincidencias y condicionales para mostrar solo los nombres de los archivos que contenían la palabra indicada. También se trabajó con el uso de argumentos ($1) y con el filtrado de resultados sin mostrar texto adicional.
+
+En el nivel 9, se creó un script para monitorear cambios en un directorio. Se utilizó el comando ls para listar el contenido del directorio y diff para comparar dos listados diferentes y detectar qué archivos cambiaron. También se practicó el uso de date para registrar marcas de tiempo y la redirección > para escribir en el archivo changes.log. Este nivel reforzó el uso de comparaciones y control del flujo con read para esperar la acción del usuario.
+
+En el nivel 10, se integraron los conocimientos anteriores en una “batalla final”. Se creó un directorio llamado Arena_Boss con varios archivos generados automáticamente con distinto número de líneas. Se aplicaron comandos como seq, for, stat, sort, grep y mv para crear, medir, ordenar y mover archivos. Además, se usaron estructuras condicionales para detectar si algún archivo contenía la palabra “Victory” y moverlo a un directorio llamado Victory_Archive.
